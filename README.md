@@ -5,13 +5,16 @@
 
 
 
-a minha felicidae é um crediário nas casas bahia
+
+
+
+a minha felicidade é um crediário nas casas bahia
 
 
 
 
 
-esse projeto foi reformulado, foi meu primeiro site com conhecimentos basicos em front end mas após mais de 1 ano esta todo refeito, e com a inclusão do javascript alem de um player de musica com as musicas banda
+esse projeto foi reformulado, foi meu primeiro site com conhecimentos basicos em front end, primeiro projeto solo mas, após mais de 1 ano esta todo refeito, e com a inclusão do javascript alem de um player de musica com as musicas banda
 
 
 <img src="https://user-images.githubusercontent.com/70982672/165147825-40d43a45-6740-4801-8757-77268adcb7cf.png">
