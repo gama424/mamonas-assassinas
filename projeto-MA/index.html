@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/css/images/ma-logo.ico">
+
+    <title>Projeto MA</title>
+
+
+                <!-- /*animaçoes*/ -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+                <!-- /*animaçoes*/ -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+
+                <!-- /*navbar*/ -->
+
+
+                <header>
+                    <nav>
+                        <div class="logo">
+                            <img src="/css/images/ma-logo2.png" alt="">
+                    </div>
+                      <div class="mobile-menu">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                      </div>
+                      <ul class="nav-list">
+
+                        <li><a href="#historia">História</a></li>
+                        <li><a href="#player">Músicas</a></li>
+                        <li><a href="#trechos-utopia">a Utopia</a></li>
+                        <li class="hovertext" data-hover="que é good nois num have"><a href="#">Money</a></li>
+
+                      </ul>
+                    </nav>
+                  </header>
+                  <main></main>
+
+            <!-- /*navbar*/ -->
+
+
+
+
+            <!-- /*banner*/ -->
+
+
+      <div class="banner">
+
+        <img src="/css/images/banner.jpg" alt="Mamonas Assassinas">
+
+      </div>
+            <!-- /*banner*/ -->
+
+
+
+
+
+
+
+
+
+
+
+      <div>
+    
+
+            <table>
+                <tr>
+                  <td  data-aos="fade-up"><img  src='/css/images/brasilia.png'/></td>
+
+                  <td data-aos="fade-down" class="poema"> Mais conhecido que o batmóvel<br> Mais rápido que o flash<br> Imune a multas de trânsitos <br>Muito mais amarelo que um girassol<br> Ideal para conquistar umas <br>pitchulas em acapulco.</td>
+                </tr>
+
+              </table>
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- /*integrantes*/ -->
+
+
+
+            <div class="integrantes">
+
+                    <h1 data-aos="fade-right" style="text-align: center;">Os Mamonas</h1>
+
+                <div class="card card--2" data-aos="fade-down">
+                   <img src="/css/images/0bento.jpg"  alt="">
+                   <p>Bento<br>
+                    Era ele o grande responsável pelo caldeirão de estilos que predominavam nas músicas dos Mamonas. Além de ser o único japonês com cabelos rastafari até hoje conhecido, era um verdadeiro campeão do iô-iô.</p>
+                </div>
+
+                <div class="card card--2" data-aos="fade-left">
+                    <img src="/css/images/0dinho.jpg"  alt="">
+                    <p>Dinho<br>
+                        talento para a comédia e para o escracho desse baiano de Irecê ("mas sou registrado em São Paulo!") que além de ser cantor e compositor ainda tirava uma casquinha como sex-symbol.</p>
+                 </div>
+ 
+                 <div class="card card--2" data-aos="fade-right">
+                    <img src="/css/images/0julio.jpg"  alt="">
+                    <p>Júlio<br>
+                        Que ele era a voz da Maria em Vira-vira todo mundo já sabia, mas o que era uma verdadeira surpresa para todos era ver que era ele, e não o Dinho <br> quem imitava Belchior em Uma Arlinda Mulher.</p>
+                 </div>
+ 
+            
+
+                <div class="card card--2"  data-aos="fade-up">
+                    <img src="/css/images/0samuel.jpg"   alt="">
+                    <p>Samuel<br>Discretamente "chutado" dos backing-vocals por causa da desafinação, era um verdadeiro obcecado por aviões e só ficava atrás do Dinho no quesito mulherio. Era admirado pelos colegas devido ao seu humor prá lá de infame.</p>
+                </div>
+
+                <div class="card card--6"   data-aos="fade-down">
+                    <img src="/css/images/0sergio.jpg"  alt="">
+                    <p>Sergio<br>O mais velho dos descendentes do grupo sertanejo "Irmãos Oliveira", Sérgio era um dos maiores piadistas do grupo. Irmão do Samuel Reoli.</p>
+                </div>
+
+
+            </div>
+
+
+            <!-- /*integrantes*/ -->
+
+
+
+            <div class="body-player" id="player">
+
+
+                <!-- //capa do album -->
+                <div class="img">
+                    <img src="/css/images/Mamonas Assassinas(1995).jpg" alt="">
+                </div>
+                   
+                    <div class="descricao">
+                            <h2>Nome da Música</h2>
+                              <i>Nome do Artista</i> 
+                    </div>
+
+                <!-- //capa do album -->
+
+
+                <!-- //duração da musica -->
+
+                    <div class="duracao">
+
+                        <div class="barra">
+                            <progress value="0" max="1"></progress>
+                            <div class="ponto"></div>
+                        </div>
+
+                        <div class="tempo">
+                                <p class="inicio">0:00</p>
+                                <p class="fim">3:40</p>
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- //player -->
+
+
+                            <div class="player">
+                                <!--  foi adicionada novas classes para os icones, assim modificando
+                                sem interferencias no css
+                                                            botao-play
+                                                            botao-pause
+                                                            setas
+
+                                                            setas proximas e setas anterior criado devido ao
+                                                            javascript
+                                    -->
+
+                                <i class="fa fa-arrow-left setas anterior" aria-hidden="true"></i>
+                                <i class="fa fa-play botao-play" aria-hidden="true"></i>
+                                <i class="fa fa-pause botao-pause" aria-hidden="true"></i>
+                                <i class="fa fa-arrow-right setas proxima" aria-hidden="true"></i>
+
+                            </div>
+
+                            <audio src="/music/01. 1406.mp3"></audio>
+
+                        </div>
+
+
+                      
+
+
+
+                        <div id="historia">
+
+                                <h1>Atenção Creuzebeck</h1>
+                                <p>Esses sao os eternos garotos, os Mamonas Assassinas! parecem um tanto másculos e com M maiúsculo não é mesmo? vejam todos estes músculos cultivados com amor. <br> Hoje e sempre eles serão um exemplo de vida, de jamais desistir do que apenas você pode conseguir, mesmo que passe por tempestades, nunca perca a esperança em si mesmo, eles não perderam e hoje estão eternizado em nossos corações.</p>
+
+                                <section class="box">
+                                    <img src="/css/images/mamonas1.jpeg" data-aos="fade-left" alt="">
+                                    <img src="/css/images/mamonas2.jpeg" data-aos="fade-right" alt="">
+
+                                        
+
+
+                                </section>
+
+
+                        </div>
+
+
+                        <div class="utopia" id="trechos-utopia">
+                            <h2>trechos da Utopia</h2>
+                        </div>
+                      
+                        <div class="ocean">
+                            
+                            <div class="text">        
+                                <div class="overlay">
+                        <p class="description">minha vida tem varias fases, mas eu me encontro tão só...</p>
+                                </div>
+                            </div>
+                                 <!-- /////////////////*************** -->
+            
+            
+                                    
+                            <div class="text-2">        
+                                <div class="overlay-2">
+                        <p class="description-2">sinto que vivo uma cópia, <br> de um sofrimento que nunca senti.</p>
+                                </div>
+                            </div>
+                                <!-- /////////////////*************** -->
+                           
+                           
+                           
+                            <div class="text-3">        
+                                <div class="overlay-3">
+                        <p class="description-3">quero ouvir frases malditas, quero ouvir palavras nunca ditas a ninguem!</p>
+                                </div>
+                            </div>
+                                <!-- /////////////////*************** -->
+            
+            
+            
+            
+                                <div class="text-4">        
+                                    <div class="overlay-4">
+                            <p class="description-4">entao me aqueça, esqueça que um dia algo nos fez sofrer...</p>
+                                    </div>
+                                </div>
+                                    <!-- /////////////////*************** -->
+            
+                             
+                            
+            </div>
+            
+                    <section class="utopia-historia">
+
+                        <p>Utopia era a banda que antecedeu os Mamonas Assassinas, passaram por altos e baixos, tiveram shows recusados e nunca acreditaram que a banda teria sucesso um dia, as músicas eram meláncolicas porém músicas de muita sabedoria, a grande reflexão é que o sucesso, a grandeza, a ascenção, vem depois de uma tempestade, de um momento triste, como as músicas da Utopia... O sucesso dos Mamonas veio logo depois da "melancolia" da Utopia, sempre há grandes momentos depois da tristeza, ela nos da sabedoria do que fazer e como fazer, a Utopia é esse grande exemplo, essa é a fórmula do sucesso.</p>
+
+                            <section class="utopia-image">
+                             <img src="/css/images/utopia.jpeg" data-aos="fade-up"  alt="">
+                             
+                            </section>
+
+                    </section>
+
+
+
+
+<!-- /*meu footer*/ -->
+<footer data-aos="fade-down" >
+    <p>this project is from</p>
+    <img src="/css/images/ge.png" alt="">
+
+    <ul class="icons"">
+  <a href="https://www.linkedin.com/in/gabriel-gama1964/"> <li>  <i class="fa fa-linkedin-square fa0" aria-hidden="true"></i> </li></a>
+
+  <a href="https://www.flickr.com/photos/135668103@N02/"> <li>  <i class="fa fa-flickr fa0" aria-hidden="true"></i> </li> </a>
+
+  <a href="https://pixelfed.de/gama"> <li>  
+      <i class="fa fa-camera fa0" aria-hidden="true"></i></li> </a>
+
+    <a href="https://github.com/gama424"> <li> <i class="fa fa-github fa0" aria-hidden="true"></i></li> </a>
+
+
+
+
+    </ul>
+
+
+</footer>
+<!-- /*meu footer*/ -->
+
+
+
+
+
+
+
+<!-- /*animaçoes*/ -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      duration: 2100,
+  });
+</script>
+<!-- /*animaçoes*/ -->
+
+
+
+
+<!-- /*javascript*/ -->
+<script src="/javascript/script.js"></script>
+
+
+</body>
+</html>
