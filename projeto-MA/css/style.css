@@ -335,7 +335,7 @@ table{
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(/css/images/black_player.jpeg);
+  background-image: url(/projeto-MA/css/images/black_player.jpeg);
   background-size: cover;
   background-position: center;
   font-family: 'Play', sans-serif;
@@ -525,11 +525,6 @@ progress{
 
 
 
-
-
-
-
-
 .utopia h2{
   color: white;
   text-align: center;
@@ -541,7 +536,7 @@ progress{
   margin-top: 7%;
   width: 100%;
   height: 100%;
-  background-image: url(/css/images/ocean.jpeg);
+  background-image: url(/projeto-MA/css/images/ocean.jpeg);
   background-position: center;
   background-size: cover;
 
@@ -784,9 +779,9 @@ progress{
 
 
 
-
+/*meu footer*/
 footer{
-  background-image: url(/css/images/dark_footer.png);
+  background-image: url(/projeto-MA/css/images/dark_footer.png);
   background-position: center;
   background-size: cover;
   margin-top: 100px;
@@ -836,5 +831,7 @@ margin: auto;
 text-align: center;
 list-style: none;
 padding-bottom: 25px;
+width: 50%;
 }
+/*meu footer*/
 
